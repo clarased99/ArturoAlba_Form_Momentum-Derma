@@ -3,12 +3,12 @@
 
     /* Mensajes de marca según nº de aciertos (0-12) */
     var MESSAGES = [
-        { title: "El cielo por descubrir", text: "Momentum Derma reúne doce protocolos bajo un mismo cielo, y todavía no has trazado tu primera ruta. Cada dios de esta constelación responde a un estado de la piel — y ese aprendizaje empieza ahora." },
-        { title: "Primeras coordenadas", text: "Has situado los primeros astros en el mapa. El astrolabio de Momentum Derma tiene doce posiciones, y ya reconoces alguna." },
-        { title: "El astrolabio en tus manos", text: "Empiezas a leer el instrumento: sabes qué protocolo responde a qué necesidad de la piel. Quedan constelaciones enteras por alinear." },
-        { title: "Momentum en marcha", text: "Tu conocimiento ya tiene inercia propia. Distingues a Cronos de Eirene, a Afrodita de Atenea — la piel ha dejado de ser un territorio ajeno." },
-        { title: "Casi en órbita", text: "Conoces el mapa casi tan bien como quien lo trazó. Solo un protocolo se resiste todavía a encajar en tu constelación." },
-        { title: "Maestría celeste", text: "Dominas los doce protocolos de Momentum Derma como si tú misma hubieras calibrado el astrolabio. La piel — la tuya y la de quien te pregunte — está en las mejores manos." }
+        { title: "El cielo por descubrir", text: "Momentum Derma reúne doce protocolos bajo un mismo cielo, el aprendizaje empieza ahora." },
+        { title: "Primeras coordenadas", text: "Has situado los primeros astros en el mapa. Ya reconoces algunas posiciones del astrolabio." },
+        { title: "El astrolabio en tus manos", text: "Empiezas a leer el instrumento pero aún quedan constelaciones por alinear." },
+        { title: "Momentum en marcha", text: "Tu conocimiento ya tiene inercia propia. La piel ha dejado de ser un territorio ajeno." },
+        { title: "Casi en órbita", text: "Conoces los astros casi tan bien como quien los creó. Solo un protocolo se resiste todavía a encajar en tu constelación." },
+        { title: "Maestría celeste", text: "Dominas los doce protocolos de Momentum Derma como si tú hubieras calibrado el astrolabio." }
     ];
 
     /* Umbrales para 12 preguntas */
