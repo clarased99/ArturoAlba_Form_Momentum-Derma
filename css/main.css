@@ -288,6 +288,10 @@ body.quiz--full .quiz__restart {
     color: #ffffff;
 }
 
+body.quiz--full .quiz__counter {
+    color: #ffffff;
+}
+
 .quiz__panel--full {
     position: relative;
     display: flex;
@@ -422,6 +426,21 @@ body.quiz--full .quiz__restart {
 
 .quiz__restart-arrow {
     font-size: 1.2rem;
+}
+
+/* Contador de preguntas (1/12, 2/12...), en espejo con
+   "Volver a empezar": mismo tamaño y misma altura, esquina
+   superior derecha en vez de izquierda. */
+.quiz__counter {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Silka", sans-serif;
+    font-size: 1.1rem;
+    color: #ffffff;
 }
 
 /* =============================================
@@ -599,6 +618,15 @@ body.quiz--banner .quiz__restart {
     border-radius: 999px;
 }
 
+body.quiz--banner .quiz__counter {
+    color: #302e2b;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+}
+
 .quiz__banner {
     position: relative;
     width: 100%;
@@ -685,6 +713,11 @@ body.quiz--banner .quiz__restart {
     .quiz__restart {
         top: 1.25rem;
         left: 1.25rem;
+    }
+
+    .quiz__counter {
+        top: 1.25rem;
+        right: 1.25rem;
     }
 
     .quiz__panel--full {
